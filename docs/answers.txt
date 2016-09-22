@@ -1,0 +1,16 @@
+Total commits are 9
+Number of commits done by me are 3
+
+gitignore of original repository Sep 15 10:29
+gitignore of forked repository Sep 21 12:22
+
+Sword.java file was the only file modified and it was modified once.
+
+Git status shows the changes made after last commit in the respository.
+Git log shows all the logged information about each commit performed.
+
+git log --follow RoleGame.java
+
+git log --grep=file
+
+git log --since "SEP 1 2016" --until "SEP 16 2016" --author="Alice"
