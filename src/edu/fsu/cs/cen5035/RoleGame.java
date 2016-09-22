@@ -22,6 +22,8 @@ public class RoleGame {
         System.out.println("Arrow has " + arrow.hit() + " of damage.");
         System.out.println("Arrow was able to do " + arrow.hit(armor) + " of damage due to an armor with "+armor+ " points.");
 		
-		
+		Weapon axe = WeaponFactory.getWeapon("axe");
+        System.out.println("Axe has " + axe.hit() + " of damage.");
+        System.out.println("Axe was able to do " + axe.hit(armor) + " of damage due to an armor with "+armor+ " points.");
     }
 }
